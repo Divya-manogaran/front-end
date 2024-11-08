@@ -18,7 +18,7 @@ const Home = () => {
   const fetchData = async () => {
     try {
       const res = await axios.get(
-        "https://ecomm-backend-dc9u.onrender.com/api/products/get"
+        "https://back-end-ip7z.onrender.com"
       );
       setProducts(res.data.result);
     } catch (error) {
